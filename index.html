@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Престиж Сервис</title>
+    <link rel="stylesheet" href="css/reboot.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+        <div class="promo">
+            <div class="container">
+                <header class="header">
+                    <div class="header__logo">Престиж Сервис</div>
+                    <div class="header__links">
+                        <a class="header__links-contacts" href="#contacts">Контакты</a>
+                        <button class="header__links-button button">Запись</button>
+                    </div>
+                </header>
+            </div>
+        </div>
+
+        <section class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <h2 class="hero__content-title">ПРЕСТИЖ СЕРВИС</h2>
+                    <div class="hero__content-list">
+                        <ul>
+                            <li>РЕМОНТ ОКОН</li>
+                            <li>УСТАНОВКА ОКОН</li>
+                            <li>МОСКИТНЫЕ СЕТКИ</li>
+                            <li>ОТДЕЛКА БАЛКОНОВ</li>
+                            <li>ОСТЕКЛЕНИЕ БАЛКОНОВ</li>
+                            <li>УТЕПЛЕНИЕ</li>
+                            <li>ОТДЕЛКА ПОД КЛЮЧ</li>
+                        </ul>
+                    </div>
+                    <button class="hero__content-button button">ЗАПИСАТЬСЯ СЕЙЧАС</button>
+                </div>
+                
+            </div>
+            <div class="hero__bg">
+                <img src="icons/hero_window.png" alt="window">
+            </div>
+        </section>
+        <section class="garantees">
+            <div class="container">
+                <div class="garantees__wrapper">
+                    <div class="garantees__item">
+                        <div class="garantees__item-icon"><img src="icons/wallet.svg" alt="wallet"></div>
+                        <div class="garantees__item-descr">Низкие цены</div>
+                    </div>
+                    <div class="garantees__item">
+                        <div class="garantees__item-icon"><img src="icons/badge.svg" alt="badge"></div>
+                        <div class="garantees__item-descr">Контроль качества</div>
+                    </div>
+                    <div class="garantees__item">
+                        <div class="garantees__item-icon"><img src="icons/shield.svg" alt="shield"></div>
+                        <div class="garantees__item-descr">Гарантийный срок</div>
+                    </div>
+                    <div class="garantees__item">
+                        <div class="garantees__item-icon"><img src="icons/worker.svg" alt="worker"></div>
+                        <div class="garantees__item-descr">Профессиональные <br> монтажники</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="fittings">
+            <div class="fittings__bg">
+                <img src="icons/second_section.png" alt="fittings">
+            </div>
+            <div class="container">
+                <div class="fittings__content">
+                    <ul>
+                        <li>КОРПУСНАЯ МЕБЕЛЬ</li>
+                        <li>ШКАФЫ-КУПЕ</li>
+                        <li>КУХНИ</li>
+                        <li>ВХОДНЫЕ И <br>
+                            МЕЖКОМНАТНЫЕ ДВЕРИ</li>
+                    </ul>
+                    <button class="fittings__content-button button">ЗАПИСАТЬСЯ СЕЙЧАС</button>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="ceilings">
+                <div class="ceilings__title">НАТЯЖНЫЕ ПОТОЛКИ</div>
+                <div class="ceilings__bg"><img src="icons/slice_bg.jpg" alt="ceilings"></div>
+        </section>
+
+        <section class="examples">
+                <div class="examples__title">НАШИ РАБОТЫ</div>
+                <div class="slider">
+                    <div class="item">
+                        <img src="img/slide1.png" alt="Первый слайд">
+                    </div>
+                
+                    <div class="item">
+                        <img src="img/slide2.png" alt="Первый слайд">
+                    </div>
+                
+                    <div class="item">
+                        <img src="img/slide3.png" alt="Первый слайд">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/slide4.png" alt="Первый слайд">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/slide5.png" alt="Первый слайд">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/slide6.png" alt="Первый слайд">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/slide7.png" alt="Первый слайд">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/slide8.png" alt="Первый слайд">
+                    </div>
+
+                    <div class="item">
+                        <img src="img/slide9.png" alt="Первый слайд">
+                    </div>
+
+                
+                    <a class="prev" onclick="minusSlide()">&#10094;</a>
+                    <a class="next" onclick="plusSlide()">&#10095;</a>
+                </div>
+                
+                <div class="slider-dots">
+                    <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+                    <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+                    <span class="slider-dots_item" onclick="currentSlide(3)"></span>
+                    <span class="slider-dots_item" onclick="currentSlide(4)"></span> 
+                    <span class="slider-dots_item" onclick="currentSlide(5)"></span> 
+                    <span class="slider-dots_item" onclick="currentSlide(6)"></span> 
+                    <span class="slider-dots_item" onclick="currentSlide(7)"></span> 
+                    <span class="slider-dots_item" onclick="currentSlide(8)"></span> 
+                    <span class="slider-dots_item" onclick="currentSlide(9)"></span> 
+ 
+                </div>
+        </section>
+
+
+
+            <div class="modal" id="consultation">
+                <div class="modal__close">&times;</div>
+                <div class="modal__subtitle">Просто заполните форму заявки</div>
+                <div class="modal__descr">и мы перезвоним вам</div>
+                <form class="feed-form feed-form_mt25" action="sendmail.php" method="get">
+                    <input class="feed-name _req" name="name"  placeholder="Имя" type="text"> 
+                    <input class="feed-form-number _req" name="phone"  placeholder="Телефон" type="tel"> 
+    
+                    <button class="button button_submit" type="submit">Запись</button>
+                </form>
+            </div>
+
+        <footer class="footer" id="contacts">
+            <address class="container">
+                <div class="footer__numbers">
+                    <div class="footer__numbers-item">
+                        <img src="icons/Call.svg" alt="tel">
+                        <a href="tel:+79539189620">+7 (953) 918-96-20</a>
+                    </div>
+                    <div class="footer__numbers-item">
+                        <img src="icons/Call.svg" alt="tel">
+                        <a href="tel:+79830530358">+7 (983) 053-03-58</a>
+                    </div>
+                </div>
+
+
+            </address>
+        </footer>
+
+
+
+        <script src="js/script.js"></script>
+</body>
+</html>
